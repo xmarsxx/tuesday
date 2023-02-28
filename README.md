@@ -1,2 +1,2 @@
-# tuesday
+# Tuesday
 IT&amp;C 350

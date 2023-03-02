@@ -1,7 +1,7 @@
 # Tuesday
 IT&amp;C 350
 
-## Tuesday Objectives
+### Tuesday Objectives
 The primary stakeholders for this project include the Developers of the app, Team Leaders, and Team Members. Their primary needs are summarized below.
 
 ### Developers

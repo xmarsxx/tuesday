@@ -1,7 +1,8 @@
 # Tuesday
 IT&amp;C 350
 
-## The primary stakeholders for this project include the Developers of the app, Team Leaders, and Team Members. Their primary needs are summarized below.
+## Tuesday Objectives
+The primary stakeholders for this project include the Developers of the app, Team Leaders, and Team Members. Their primary needs are summarized below.
 
 ### Developers
 - Develop code that is easy to maintain, low cost, and leverages their existing skill set. Ensure usability and robustness of the app remains high.

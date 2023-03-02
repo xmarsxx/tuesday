@@ -1,0 +1,33 @@
+INSERT INTO users (1, Sam, rAnDOmGibbeRIsh, ShouldHaveBeenPtuesday@gmail.com) VALUES ('2', 'Brenden', 'asekfhnabvjgwbh.sLIJDFuhgkj', 'brenden.layton@gmial.com');
+INSERT INTO users (1, Sam, rAnDOmGibbeRIsh, ShouldHaveBeenPtuesday@gmail.com) VALUES ('3', 'Jo', 'asfasdfewfwegwv34h5y645h', 'jo@email.com');
+INSERT INTO users (1, Sam, rAnDOmGibbeRIsh, ShouldHaveBeenPtuesday@gmail.com) VALUES ('4', 'Matt', 'gerb4r34634g34ggerh54', 'matt@email.com');
+
+
+INSERT INTO project (1, Homework, 2, 1) VALUES ('2', 'OW esports practice', '1', '1');
+INSERT INTO project (1, Homework, 2, 1) VALUES ('3', 'The Big Project', '2', '2');
+INSERT INTO project (1, Homework, 2, 1) VALUES ('4', 'The small Project', '1', '2');
+
+INSERT INTO board (1, DueSoon, 1, 1) VALUES ('2', 'Done', '1', '2');
+INSERT INTO board (1, DueSoon, 1, 1) VALUES ('3', 'Trainingschedule', '2', '1');
+INSERT INTO board (1, DueSoon, 1, 1) VALUES ('4', 'A Big Board', '3', '3');
+INSERT INTO board (1, DueSoon, 1, 1) VALUES ('5', 'a small board', '4', '3');
+INSERT INTO board (1, DueSoon, 1, 1) VALUES ('6', 'a MeDiUm BoArD', '3', '2');
+
+INSERT INTO task (1, Database Stuff, Less Silly Homework, 2023-02-28 12:00:00, 2023-02-28 12:00:00, 1, 1, 1) VALUES ('2', 'InfoSec Homework', 'Silly Homework', '2023-02-28 12:00:00', '2023-02-28 12:00:00', '2', '1', '2');
+INSERT INTO task (1, Database Stuff, Less Silly Homework, 2023-02-28 12:00:00, 2023-02-28 12:00:00, 1, 1, 1) VALUES ('3', 'Practice Range', 'Practice abilities in the practice range', '2023-02-28 12:00:00', '2023-02-28 12:00:00', '3', '1', '1');
+INSERT INTO task (1, Database Stuff, Less Silly Homework, 2023-02-28 12:00:00, 2023-02-28 12:00:00, 1, 1, 1) VALUES ('4', 'WreckingBall', 'Learn how to play Wreckingball because it\'s really difficult WHY IS IT SO DIFFICULT', '2023-02-28 12:00:00', '2023-02-28 12:00:00', '3', '2', '3');
+INSERT INTO task (1, Database Stuff, Less Silly Homework, 2023-02-28 12:00:00, 2023-02-28 12:00:00, 1, 1, 1) VALUES ('5', 'do big things', 'doing so many big things', '2023-02-28 12:00:00', '2023-02-28 12:00:00', '4', '2', '2');
+INSERT INTO task (1, Database Stuff, Less Silly Homework, 2023-02-28 12:00:00, 2023-02-28 12:00:00, 1, 1, 1) VALUES ('6', 'do bigger things', 'doing bigger things for this project', '2023-02-28 12:00:00', '2023-02-28 12:00:00', '4', '2', '1');
+INSERT INTO task (1, Database Stuff, Less Silly Homework, 2023-02-28 12:00:00, 2023-02-28 12:00:00, 1, 1, 1) VALUES ('7', 'do small things', 'smallest things i\'ve ever done', '2023-02-28 12:00:00', '2023-02-28 12:00:00', '5', '2', '1');
+INSERT INTO task (1, Database Stuff, Less Silly Homework, 2023-02-28 12:00:00, 2023-02-28 12:00:00, 1, 1, 1) VALUES ('8', 'do medium things', 'most medium things ever done here', '2023-02-28 12:00:00', '2023-02-28 12:00:00', '6', '1', '1');
+
+
+
+INSERT INTO note (1, 1, 2023-02-28 12:00:00, Example Note Text) VALUES ('2', '2', '2023-02-28 12:00:00', 'Other Example Text');
+INSERT INTO note (1, 1, 2023-02-28 12:00:00, Example Note Text) VALUES ('3', '4', '2023-02-28 02:00:00', 'AAAAA WHY IS IT SO DIFFICULT');
+INSERT INTO note (1, 1, 2023-02-28 12:00:00, Example Note Text) VALUES ('4', '4', '2023-02-28 02:45:00', 'wait I think I figured it out');
+INSERT INTO note (1, 1, 2023-02-28 12:00:00, Example Note Text) VALUES ('5', '5', '2023-02-28 03:45:00', 'NO I DIDN\'T IT\'S STILL SO HARD');
+INSERT INTO note (1, 1, 2023-02-28 12:00:00, Example Note Text) VALUES ('6', '5', '2023-03-01 03:45:00', 'none');
+INSERT INTO note (1, 1, 2023-02-28 12:00:00, Example Note Text) VALUES ('7', '6', '2023-03-02 03:45:00', 'don\'t care');
+INSERT INTO note (1, 1, 2023-02-28 12:00:00, Example Note Text) VALUES ('8', '7', '2023-03-03 03:45:00', 'why so serious');
+INSERT INTO note (1, 1, 2023-02-28 12:00:00, Example Note Text) VALUES ('9', '8', '2023-03-04 03:45:00', 'EXPECTO POTRONUMMMMMMM');

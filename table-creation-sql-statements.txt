@@ -1,0 +1,50 @@
+USE tuesday;
+GO
+
+CREATE TABLE USERS (
+   UserID INT IDENTITY(1,2) NOT NULL,
+   DisplayName VARCHAR(255) NOT NULL,
+   AuthToken VARCHAR(255) NOT NULL,
+   EmailAddress VARCHAR(255) NOT NULL,
+   PRIMARY KEY (UserID)
+);
+
+CREATE TABLE PROJECT (
+   ProjectID INT IDENTITY(1,2) NOT NULL,
+   ProjectName VARCHAR(255) NOT NULL,
+   UserID INT NOT NULL,
+   ProjectPriority INT NOT NULL,
+   PRIMARY KEY (ProjectID),
+   FOREIGN KEY (UserID) REFERENCES USERS(UserID)
+);
+
+CREATE TABLE BOARD (
+   BoardID INT auto_increment NOT NULL,
+   BoardName VARCHAR(255) NOT NULL,
+   BoardPriority INT,
+   ProjectID INT NOT NULL,
+   PRIMARY KEY (BoardID),
+   FOREIGN KEY (ProjectID) REFERENCES PROJECT(ProjectID)
+);
+
+CREATE TABLE TASK (
+   TaskID INT auto_increment NOT NULL,
+   Title VARCHAR(255) NOT NULL,
+   TaskDescription TEXT,
+   DueDate DATETIME,
+   DateCreated DATETIME NOT NULL,
+   BoardID INT NOT NULL,
+   TaskPriority INT NOT NULL,
+   Status INT,
+   PRIMARY KEY (TaskID),
+   FOREIGN KEY (BoardID) REFERENCES BOARD(BoardID)
+);
+
+CREATE TABLE NOTE (
+   NoteID INT AUTO_INCREMENT NOT NULL,
+   TaskID INT NOT NULL,
+   DatePosted INT NOT NULL,
+   NoteDescription TEXT,
+   PRIMARY KEY (NoteID),
+   FOREIGN KEY (TaskID) REFERENCES TASK(TaskID)
+);
